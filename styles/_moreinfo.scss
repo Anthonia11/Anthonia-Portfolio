@@ -1,0 +1,18 @@
+
+.moreinfo{
+    background-color: black;
+    font-size: medium;
+    font-family: 'sans-serif', Segoe UI, Tahoma, Geneva, Verdana;
+    line-height: 1;
+    color: $font-color;
+    height: 90vh;
+    padding: 4vh;
+    h2, h4{
+        color: $about-color;
+        padding: 2vh;
+    }
+    p{
+        padding: 2vh;
+    }
+    
+}

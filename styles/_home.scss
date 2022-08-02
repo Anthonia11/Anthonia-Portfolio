@@ -1,0 +1,36 @@
+.home{
+    background:$secondary-color;
+    height:60vh;
+    padding:20vh;
+    overflow: hidden;
+    color: $font-color;
+    align-items: center;
+    text-align: center;
+    //color:$btn-color;
+    background:
+        linear-gradient(
+            to right($primary-color, 0.9)
+            to right($primary-color, 0.3)
+        )
+    url('../img/Cover.jpg')center;
+    background-size: cover;
+
+    &_name{
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-bottom:1rem;
+        font-weight: 300;
+        border-bottom: 2px solid $font-color;
+        
+        &--last{
+            color:$btn-color;
+            font-weight:300;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+
+
+
+

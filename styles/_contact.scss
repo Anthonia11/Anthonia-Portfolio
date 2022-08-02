@@ -1,0 +1,39 @@
+.contact{
+    background: $secondary-color;
+    height:60vh;
+    padding:5vh;
+    // overflow: hidden;
+    color: $font-color;
+    
+}
+
+ .contact-container{
+    margin: 10px;
+    width: 100%;
+}
+
+
+.contact-11{
+    font-size: 3rem;
+    font-weight: 500;
+    color: $about-color;
+    text-align: center;
+}
+
+.socials-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 20px;
+    margin-bottom: 60px;
+    font-size: large;
+}
+
+.socials-icons>a{
+    color: $font-color2;
+    text-decoration: none;
+   
+}
+.socials-icons>i{
+    color: $btn-over;
+}

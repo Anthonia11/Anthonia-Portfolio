@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+
+$primary-color:#0a0b4d;
+$secondary-color:#0b012e;
+$btn-color:rgb(247, 12, 12);
+$btn-over:#b2b2df;
+$font-color:#fff;
+$font-color2:#646464;
+$icon_color: #ff6426;
+$plain-color:#a7a5aa;
+$about-color:#a10035;
+
+@mixin transition-ease {
+    transition:all 0.5s ease-in-out;
+    
+}

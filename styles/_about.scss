@@ -1,0 +1,36 @@
+.about{
+    background: $secondary-color;
+    height:60vh;
+    padding:5vh;
+    overflow: hidden;
+    color: $font-color;
+    
+    
+    h2{
+        color:$about-color;
+    }
+
+
+.jobs{
+    width:60vw;
+    margin-right: 1rem;
+    font-size: small;
+    text-align: right;
+
+    a{
+        text-decoration: none;
+        color: $icon_color;
+        padding: 1rem;
+        &:hover{
+            color:$plain-color;
+        }
+
+    }
+
+    
+    h4{
+        color: $font-color;
+    }
+}
+}
+
