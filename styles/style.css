@@ -167,6 +167,56 @@
   overflow: hidden;
 }
 
+.portfolio_item {
+  position: relative;
+  padding: 30px;
+  border-bottom: 5px solid #646464;
+  margin: auto;
+  cursor: pointer;
+}
+.portfolio_item::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(247, 12, 12);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.portfolio_item:hover::after {
+  top: 0;
+  opacity: 0.9;
+}
+
+#image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+  height: 100px;
+  width: 200px;
+}
+
+.portfolio_btns {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.portfolio_btns a {
+  color: #fff;
+  text-decoration: none;
+}
+.portfolio_btns a :hover {
+  color: #646464;
+}
+
 .container {
   height: 100vh;
   font-family: "sans-serif", Segoe UI, Tahoma, Geneva, Verdana;
