@@ -7,6 +7,7 @@
 @import './moreinfo2';
 @import './contact';
 @import './portfolio';
+@import './responsive';
 
 .container{
     height: 100vh;
@@ -40,6 +41,10 @@ header{
         padding: 20px;
         
     }
+}
+
+#menu{
+    display: none;
 }
 
 footer{

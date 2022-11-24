@@ -9,9 +9,10 @@
     //color:$btn-color;
     background:
         linear-gradient(
-            to right($primary-color, 0.9)
-            to right($primary-color, 0.3)
-        )
+            to right,
+            rgba($primary-color, 0.9)
+            rgba($primary-color, 0.3)
+        ),
     url('../img/Cover.jpg')center;
     background-size: cover;
 
